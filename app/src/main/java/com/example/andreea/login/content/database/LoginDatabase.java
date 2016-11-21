@@ -12,6 +12,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 
+import com.example.andreea.login.content.User;
+
 public class LoginDatabase extends SQLiteOpenHelper {
 
     public static final String TABLE_USERS = "users";
